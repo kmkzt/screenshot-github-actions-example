@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "capture": "yarn pageres https://kaku-hito.com --filename='capture'"
+    "capture": "yarn mkdirp capture && yarn pageres https://kaku-hito.com --filename='capture/capture'"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "mkdirp": "^0.5.1",
     "pageres-cli": "5.0.0"
   }
 }
