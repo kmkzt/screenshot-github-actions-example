@@ -24,4 +24,4 @@ jobs:
       - uses: actions/upload-artifact@master
         with:
           name: capture
-          path: path/to/artifact
+          path: capture
