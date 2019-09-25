@@ -2,7 +2,7 @@ name: Caputure
 # This workflow is triggered on pushes to the repository.
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/1 * * * *'
 
 jobs:
   test:
